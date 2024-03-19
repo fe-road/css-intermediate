@@ -1,0 +1,55 @@
+.block {
+    height: 120px;
+    width: 400px;
+}
+
+.filler {
+    height: 2000px;
+    width: 40px;
+    background-color: lightgray;
+}
+
+.static {
+    background-color: lightblue;
+    position: static;
+}
+
+.relative {
+    background-color: lightgreen;
+    position: relative;
+    top: 20px;
+    left: 40px;
+    z-index: 9;
+}
+
+.absolute {
+    background-color: lightpink;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.fixed {
+    background-color: lightyellow;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.sticky {
+    background-color: lightsalmon;
+    position: sticky;
+    top: 0px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}

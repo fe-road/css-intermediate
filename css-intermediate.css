@@ -1,0 +1,39 @@
+* {
+    color: red;
+}
+
+body > p {
+    font-size: 2rem;
+}
+
+h1 ~ p {
+    color: green;
+}
+
+h1 + p {
+    color: blue;
+}
+
+section[data-id="mainSection"] {
+    margin: 20px 0;
+}
+
+body h1:first-child {
+    font-size: 1.4rem;
+}
+
+body p:nth-child(odd) {
+    font-size: 1.4rem;
+}
+
+body p:nth-child(odd):hover {
+    color: yellow;
+}
+
+.my-button:hover {
+    background-color: blue;
+}
+
+.my-button:active {
+    border: 4px solid black;
+}

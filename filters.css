@@ -1,0 +1,25 @@
+.logo {
+    width: 200px;
+    transition: all 1s;
+}
+
+.logo:hover {
+    width: 240px;
+    transition: all 0.6s ease-in-out 0.4s;
+}
+
+.filter-blur:hover {
+    filter: blur(2px);
+}
+
+.filter-sepia:hover {
+    filter: sepia(80%);
+}
+
+.filter-grayscale:hover {
+    filter: grayscale(100%);
+}
+
+.filter-dropshadow:hover {
+    filter: drop-shadow(-4px -2px 2px #333333);
+}

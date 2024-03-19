@@ -1,0 +1,76 @@
+/* 0,0,0,0 */
+*, div + div, div ~ div {}
+
+/* 0,0,0,1 */
+p, body, h1, div {}
+
+/* 0,0,1,0 */
+.my-class, [att] {}
+
+/* 0,1,0,0 */
+#myId {}
+
+/* 1,0,0,0 */
+/* inline styles => style="" */
+
+/* ========= */
+
+/* #myId
+0,1,0,0
+
+#myId.first-class
+0,1,1,0
+
+p#myId.first-class
+0,1,1,1
+
+
+p#myId
+0,1,0,1 */
+
+/* ========= */
+
+.first-class#myId {
+    color: red;
+}
+
+.second-class.first-class {
+    color: blue;
+}
+
+body div p {
+    color: green;
+}
+
+body > div > p.first-class#myId {
+    color: purple;
+}
+
+/* ======= */
+.my-class {
+    /* color: yellow !important; */
+}
+
+.my-icon {
+
+}
+
+/* ======= */
+
+.form-register {
+    &__button {
+        color: red;
+
+        &--is-active {
+            
+        }
+    }
+}
+
+.form-register__button {
+    
+}
+
+.form-register__button--is-active {
+
+}
